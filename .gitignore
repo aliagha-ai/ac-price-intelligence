@@ -1,0 +1,13 @@
+__pycache__/
+
+data/
+backups/
+logs/
+
+*.db
+*.csv
+
+venv/
+.env
+
+croma_page.html
