@@ -1,7 +1,10 @@
-TOKEN = "8621613099:AAEpSQ47YAlk2uFxaky0rI-p544kiSJFEDw"
+import os
+from dotenv import load_dotenv
 
-CHAT_ID = "8538679635"
+load_dotenv()
 
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 AMAZON_URL = (
     "https://www.amazon.in/s?k=1.5+ton+split+ac"

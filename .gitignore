@@ -11,3 +11,7 @@ venv/
 .env
 
 croma_page.html
+
+.env
+__pycache__/
+venv/
